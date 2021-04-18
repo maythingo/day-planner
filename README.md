@@ -1,5 +1,6 @@
 # day-planner
-
+https://maythingo.github.io/day-planner/
+https://github.com/maythingo/day-planner
 
 
 # 05 Third-Party APIs: Work Day Scheduler
