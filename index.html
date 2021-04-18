@@ -22,64 +22,62 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+  <body class=body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <!-- Clock -->
-      
-
       <p class="lead">A simple calendar app for scheduling your work day</p>
+       <!-- Clock -->
       <p id="currentDay" class="lead"></p>
     </header>
 
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class="table table-bordered">
+      <table class="table table-border-dotted">
         <tbody>
           <tr>
-            <th scope="row">9 AM</th>
-            <td class="oddRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="9AM">9 AM</th>
+            <td class="oddRow"><textarea class="textArea"id="9"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">10 AM</th>
-            <td class="evenRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="10AM">10 AM</th>
+            <td class="evenRow"><textarea class="textArea" id="10"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">11 AM</th>
-            <td class="oddRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="11AM">11 AM</th>
+            <td class="oddRow"><textarea class="textArea" id="11"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">12 AM</th>
-            <td class="evenRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="12AM">12 AM</th>
+            <td class="evenRow"><textarea class="textArea" id="12"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">1 PM</th>
-            <td class="oddRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="1PM">1 PM</th>
+            <td class="oddRow"><textarea class="textArea" id="1"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">2 PM</th>
-            <td class="evenRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="2PM">2 PM</th>
+            <td class="evenRow"><textarea class="textArea" id="2"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">3 PM</th>
-            <td class="oddRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="3PM">3 PM</th>
+            <td class="oddRow"><textarea class="textArea" id="3"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">4 PM</th>
-            <td class="evenRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="4PM">4 PM</th>
+            <td class="evenRow"><textarea class="textArea" id="4"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
           <tr>
-            <th scope="row">5 PM</th>
-            <td class="oddRow"><textarea></textarea></td>
-            <td><button>Save</button></td>
+            <th scope="row" class=firstCell id="5PM">5 PM</th>
+            <td class="oddRow"><textarea class="textArea" id="5"></textarea></td>
+            <td><button class="saveBtn">Save</button></td>
           </tr>
         </tbody>
       </table>
@@ -99,5 +97,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

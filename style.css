@@ -6,16 +6,16 @@ body {
 
 textarea {
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border: 1px solid black;
+  border-style: dotted;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: #FFDFD3;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -65,15 +65,23 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.body{
+  background-color: #FEC8D8;
 }
 
 /*container*/
 .scheduleContainer {
   font-family: Optimo, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #E0BBE4;
+}
+
+.firstCell{
+  background-color: #fff1eb;
 }
 
 /*row color*/
